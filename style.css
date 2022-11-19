@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+
+.header{
+    color: blue;
+    border: 10px black solid;
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    background-color: white;
+}
+
+.location{
+    padding: 10px;
+    border: 5px dotted black;
+    width: 240px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.weatherCard {
+    border: 5px solid black;
+    width: 230px;
+    background-color: white;
+}
