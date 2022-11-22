@@ -5,34 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="/weatherApp/WeatherApp/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class ="header " id = "header"><h1>Weather Application</h1></div>
-      <div id="location" class = "location">
+    <div class="header" id="header"><h1>Weather Application</h1></div>
+      <div id="location" class="location">
         <input  type="text" class="locForm" inputmode="search" id="locationForm" placeholder="Search locations..." aria-label="Search locations..."/>
-
         <button class="submit" id="submit">Submit</button>
       </div> 
 
       <div id = "weatherCard" class ="weatherCard">
-        <img src="https://openweathermap.org/img/wn/13d@4x.png" alt = "weather card"/>
+        <img id="icon" src="https://openweathermap.org/img/wn/13d@4x.png" alt = "weather card"/>
         <div class = "weatherInfo">
-            <h2>Location:</h1>
-            <p>Temperature:</p>
-            <p>Wind Speed:</p>
-            <p>Humidity:</p>
+            <h2>Location:<div id = "loc"></div></h1>
+            <p>Temperature: <div id = "temp"></div></p>
+            <p>Wind Speed: <div id = "windSpeed"></div></p>
+            <p>Humidity: <div id = "humidity"></div></p>
         </div>
 
 
 
 
       </div>
-
-
-    <div></div>
         
 
-    <script src="/weatherApp/WeatherApp/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
