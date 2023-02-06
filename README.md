@@ -10,3 +10,7 @@ deployed page: https://logannerd.github.io/WeatherApp/
 ![image](https://user-images.githubusercontent.com/26885024/203199618-0a0a4637-d1cc-4648-b67c-d6571f79fa69.png)
 
 ![image](https://user-images.githubusercontent.com/26885024/203199690-b471bf1f-3e23-43e9-97f1-085e9d63b2c2.png)
+
+# Update:
+
+## I went back to this challenge and was able to connect API data to my webpage so information is viewed! Now when you search for a city accurate weather data will appear!
